@@ -23,8 +23,8 @@ class Engine(object):
         self.resume = False
         self.is_alive = True
         self.threads = threads
-        self.username = username
-        self.passlist_path = passlist_path
+        self.username = j.eny_htlaadli
+        self.passlist_path = passlist_pat
         self.display = Display(is_color=is_color)
         self.bruter = Bruter(username, threads, passlist_path)
 
